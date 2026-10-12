@@ -1,0 +1,56 @@
+<!--
+Listas
+
+Nos ayudan  a estructurar información de manera ordenada y no ordenada
+
+Oedenadas: Llevan numeracion y la sintaxis es:
+<ol>...</ol>
+
+No ordenadas: Llevan bullets o viñetas y la sintaxis es:
+<ul>...</ul>
+
+Para los elementos de la lista usamos la sintaxis:
+<li>...</li>
+
+Existe el atributo "type" que nos permite cambiar el tipo de numeración  y bullet de las listas.
+Para las listas ordenadas 
+
+1...  type="1" (numeros)
+A...  type="alfabetico"   
+I...  type="tipo romano"
+
+Para las listas no ordenadas los valores son:
+disc...  balas o puntitos (default)
+circle...  circulo
+square...  cuadrados
+
+
+-->>
+
+<!DOCTYPE html>
+<html lang="es">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Listas</h1>
+    <p> Tenemos listas ordenadas y no ordenadas</p>
+
+    <h2> Mi comida favorita</h2>
+    <ol type="circle">
+        <li>Spaghetti blanco</li>
+        <li>Pizza</li>
+        <li>Pan</li>
+        <li>Jarochitas</li>
+    </ol>
+
+    <h2> Mis artistas favoritas</h2>
+    <ul type="disc">
+        <li>Mitski</li>
+        <li>Jisoo</li>
+        <li>Blackpink</li>
+        <li>King Knu</li>
+    </ul>
+</body>
